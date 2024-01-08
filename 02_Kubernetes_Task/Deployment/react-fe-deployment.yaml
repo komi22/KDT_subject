@@ -33,7 +33,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: ypwa121/react-frontend:latest
+      - image: ypwa121/react-frontend:latest #Use another user's image because of an error during image creation.
         name: react-frontend
         ports:
         - containerPort: 80
