@@ -30,7 +30,7 @@ spec:
         tier: database
     spec:
       containers:
-      - image: ypwa121/mysql-db:latest
+      - image: ypwa121/mysql-db:latest #Use another user's image because of an error during image creation.
         name: mysql-db
         env:
         - name: MYSQL_ROOT_PASSWORD
